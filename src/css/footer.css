@@ -1,0 +1,15 @@
+footer{
+    text-align:center;
+    background-color: azure;
+    padding:1em;
+    width:100%;
+    color:black;
+    bottom:0;
+    position: fixed;
+}
+h4{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}

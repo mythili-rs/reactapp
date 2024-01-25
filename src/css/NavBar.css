@@ -1,0 +1,9 @@
+ol{
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    background-color: aquamarine;
+    margin:10px;
+
+
+}
