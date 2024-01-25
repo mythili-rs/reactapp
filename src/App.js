@@ -2,13 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import TestComponent from './components/testcomponent';
 import TestClassComp from './components/classcomponents/functionalcomponents/testClassComponent.jsx/testClasscomponent';
+import PropsComponent from './components/classcomponents/PropsComponent'; 
 function App() {
   return (
     <div className="App">
+      <PropsComponent name="All" course="KEC"></PropsComponent>
       <TestClassComp/>
       <header className="App-header">
-        <TestComponent />
+        <TestComponent/>
+      
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
