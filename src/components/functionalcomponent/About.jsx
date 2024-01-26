@@ -1,10 +1,20 @@
-import '../../css/About.css'
-const About =()=>{
-    return(
-        <div>
-          <h1>  This page is ment for your  details</h1>
-        </div>
-    )
+import  { useState } from 'react';
+import '../../css/About.css';
 
+const About = () => {
+  const [college, updateCollege] = useState("KEC");
+
+  const updatingClg = () => {
+    updateCollege("Kongu Engineering College");
+  }
+
+  return (
+    <div>
+      <h1>Welcome to {college}</h1>
+      <button onDoubleClick={updatingClg}>Update College</button>
+    </div>
+  );
 }
+
 export default About;
+
